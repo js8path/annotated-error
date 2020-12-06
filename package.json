@@ -1,11 +1,19 @@
 {
   "name": "@js8path/annotated-error",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Javascript Error class with added data",
+  "author": {
+    "name": "Jeff Kunce, N0JUH",
+    "email": "js8path@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js8path/annotated-error"
+  },
   "main": "./dist/annotated-error.js",
   "module": "./src/main.js",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "./scripts/webtest_unit_continuous.cmd",
     "dev:unit": "./scripts/webtest_unit_continuous.cmd",
