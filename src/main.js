@@ -1,6 +1,6 @@
 /*
     AnnotatedError - extended error class
-    annotated-error.js
+    @js8path/annotated-error.js
 
 */
 

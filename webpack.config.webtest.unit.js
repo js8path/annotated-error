@@ -26,7 +26,7 @@ module.exports = [
     output: {
       path: path.resolve(__dirname, 'test_bundles'),
       libraryTarget: 'umd',
-      library: 'annotated-error',
+      library: '@js8path/annotated-error',
       filename: 'annotated-error-webtest-unit.js'
     },
     devServer: {
@@ -42,7 +42,7 @@ module.exports = [
       new HtmlWebpackPlugin({
         filename: 'annotated-error-webtest-unit.html',
         template: 'test/unit/template-test.html',
-        title: 'Mocha Unit Tests for annotated-error (from template)',
+        title: 'Mocha Unit Tests for @js8path/annotated-error (from template)',
         minify: false,
         inject: false,
         hash: true

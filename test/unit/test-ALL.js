@@ -1,5 +1,5 @@
 /*
-run all mocha unit tests for annotated-error
+run all mocha unit tests for @js8path/annotated-error
 test-ALL.js
 */
 
@@ -9,7 +9,7 @@ test-ALL.js
 import es6Promise from 'es6-promise'
 es6Promise.polyfill()
 
-describe('All annotated-error unit tests', function () {
+describe('All @js8path/annotated-error unit tests', function () {
   require('./test-Error.js')
   require('./test-AnnotatedError.js')
 })

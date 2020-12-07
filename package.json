@@ -1,6 +1,6 @@
 {
   "name": "@js8path/annotated-error",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Error class with added data",
   "author": {
     "name": "Jeff Kunce, N0JUH",

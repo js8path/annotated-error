@@ -7,7 +7,7 @@ const outputDist = {
   path: path.resolve(__dirname, 'dist'),
   globalObject: 'typeof self !== \'undefined\' ? self : this',
   libraryTarget: 'umd',
-  library: 'annotated-error',
+  library: '@js8path/annotated-error',
   filename: 'overwrite-this.js'
 }
 const babelRule = {

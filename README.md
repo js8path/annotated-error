@@ -1,9 +1,9 @@
-# annotated-error
+# @js8path/annotated-error
 Javascript Error class with added data
 
 ## Usage
 
-### annotated-error javascript module
+### @js8path/annotated-error javascript module
 
 Usage:
 
